@@ -37,5 +37,6 @@ if __name__ == "__main__":
     a = torch.randn(3, 3) * 10
     print(a)
     print("a.type : {}".format(type(a)))
+
     print(bit_shift_tensor(a))
     print("bit_shift_tensor.type : {}".format(type(bit_shift_tensor(a)[0])))
